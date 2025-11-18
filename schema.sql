@@ -1,1 +1,5 @@
-CREATE TABLE Grades_Table (grade_id  INT, students_id INT, subject_id INT, score INT);
+INSERT INTO Grades_Table (grade_id, students_id, subject_id, score)
+VALUES
+    (1, 2107, 101, 98),
+    (2, 2108, 101, 88),
+    (3, 2109, 101, 74);
