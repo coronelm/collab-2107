@@ -5,3 +5,4 @@ git ALTER TABLE users
 ADD COLUMN email VARCHAR(255) NOT NULL UNIQUE;
 git ALTER TABLE users
 ADD COLUMN email VARCHAR(50);
+git UPDATE users SET email = 'justinrey@gmail.com' WHERE user_id = 0002;
