@@ -1,1 +1,1 @@
-CREATE DATABASE school_db; USE school_db;
+CREATE TABLE enrollments (enrollment_id INT PRIMARY KEY, student_id INT, class_id INT);
