@@ -1,1 +1,3 @@
-ALTER TABLE Grades_Table ADD remarks VARCHAR(50);
+UPDATE grades
+SET remarks = “Excellent”
+WHERE grade_id = 1;
