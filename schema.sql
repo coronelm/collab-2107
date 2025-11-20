@@ -16,3 +16,4 @@ VALUES
 
 >>>>>>> f35be9e44b6b64ecdaa2e0792e9fd6a2ab96e8a5
 ALTER TABLE enrollments ADD school_year int;
+UPDATE enrollments SET school_year = 2025 WHERE enrollment_id = 01
