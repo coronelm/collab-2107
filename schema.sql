@@ -14,4 +14,4 @@ VALUES
 
 ALTER TABLE enrollments ADD school_year int;
 UPDATE enrollments SET school_year = 2025 WHERE enrollment_id = 01
-UPDATE enrollments SET school_year = '2025' WHERE enrollment_id = 01;
+
