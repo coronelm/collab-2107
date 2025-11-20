@@ -1,2 +1,3 @@
-ALTER TABLE Student_Table
-ADD age INT;
+UPDATE TABLE Student_Table
+SET age = 21
+WHERE student_id = 1;
