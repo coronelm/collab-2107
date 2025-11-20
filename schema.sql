@@ -1,5 +1,5 @@
-INSERT INTO teachers (id, name, subject)
+INSERT INTO students (id, name, grade_level)
 VALUES
-(1, 'Mr. Dela Cruz', 'math'),
-(2, 'Ms. Santos', 'Science'),
-(3, 'Mr. Ramirez', 'English');
+(1, Ditan, Grade_7)
+(2, Robles, Grade_8)
+(3, Gonzales, Grade_9);
