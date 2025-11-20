@@ -8,3 +8,13 @@ VALUES
 (01, 24-13453, 101),
 (02, 24-87456, 102),
 (03, 24-98742, 103);
+CREATE TABLE enrollments (
+    enrollment_id INT PRIMARY KEY,
+    student_id INT,
+    class_id INT
+);
+CREATE TABLE enrollments (
+    enrollment_id INT PRIMARY KEY,
+    student_id INT,
+    class_id INT
+);
