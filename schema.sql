@@ -18,3 +18,4 @@ CREATE TABLE enrollments (
     student_id INT,
     class_id INT
 );
+ALTER TABLE enrollments ADD school_year int;
