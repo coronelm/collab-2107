@@ -1,2 +1,5 @@
-CREATE DATABASE school_db; USE school_db;
-CREATE TABLE Student_Table (student_id INT, student_name VARCHAR(50), grade_level INT);
+INSERT INTO teachers (id, name, subject)
+VALUES
+(1, 'Mr. Dela Cruz', 'math'),
+(2, 'Ms. Santos', 'Science'),
+(3, 'Mr. Ramirez', 'English');
